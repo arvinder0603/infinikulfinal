@@ -45,6 +45,12 @@ const LandingPage = () => {
                 <NavLink to="/signup" className="uppercase text-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center bg-white px-5 py-2 rounded-[12px] shadow-md hover:shadow-xl transition-all duration-300 ease-in-out">
                   get started
                 </NavLink>
+                <NavLink
+        to="/courses"
+        className="uppercase text-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center bg-white px-5 py-2 rounded-[12px] shadow-md hover:shadow-xl transition-all duration-300 ease-in-out"
+      >
+        courses
+      </NavLink>
               </div>
             </div>
           </nav>
@@ -101,6 +107,12 @@ const LandingPage = () => {
                 <NavLink to="signup" className="uppercase bg-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center text-white px-5 py-2 rounded-[12px] shadow-md w-[100%] hover:shadow-xl transition-all duration-300 ease-in-out">
                   get started
                 </NavLink>
+                <NavLink
+        to="/courses"
+        className="uppercase text-[#6921EF] font-bold lg:text-xl md:text-lg text-base text-center bg-white px-5 py-2 rounded-[12px] shadow-md hover:shadow-xl transition-all duration-300 ease-in-out"
+      >
+        courses
+      </NavLink>
               </div>
             </div>
           </div>

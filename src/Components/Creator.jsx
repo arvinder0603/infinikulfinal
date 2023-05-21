@@ -78,17 +78,23 @@ const Creator = () => {
             <div className="hidden lg:flex absolute w-auto justify-center items-center h-full">
               <img src={line} alt="" className="h-[50rem]" />
             </div>
+            
           </div>
         </div>
-        <div className="flex lg:hidden absolute md:top-[8rem] z-[-100] top-[4rem] right-[1rem] md:right-[5rem] w-auto justify-center items-center">
+        {/* <div className="flex lg:hidden absolute md:top-[8rem] z-[-100] top-[4rem] right-[1rem] md:right-[5rem] w-auto justify-center items-center">
           <img src={vector1} alt="" />
-        </div>
+        </div> */}
         <div className="flex lg:hidden absolute md:left-[6rem] left-[1rem] w-auto justify-center items-center">
           <img src={vector2} alt="" />
         </div>
-        <div className="flex lg:hidden absolute md:bottom-[10rem] left-[2rem] bottom-[7rem] md:left-[9rem] w-auto justify-center items-center">
+        {/* <div className="flex lg:hidden absolute md:left-[6rem] left-[1rem] w-auto justify-center items-center">
+          <img src={vector2} alt="" />
+        </div> */}
+        
+        
+        {/* <div className="flex lg:hidden absolute md:bottom-[10rem] left-[2rem] bottom-[7rem] md:left-[9rem] w-auto justify-center items-center">
           <img src={vector1} alt="" />
-        </div>
+        </div> */}
       </section>
     </>
   );
